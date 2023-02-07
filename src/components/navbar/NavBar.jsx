@@ -4,7 +4,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <>
-      <nav className="navBar">
+      <nav id="home" className="navBar">
         <ul className="navList">
           <li className="navItems">
             <a className="navAnchor" href="#home">
@@ -13,21 +13,10 @@ const NavBar = () => {
           </li>
 
           <li className="dropdown navItems">
-            <a href="/" className="navAnchor">
+            <a href="#about" className="navAnchor">
               About Me
             </a>
-            <ul className="dropdown-content">
-              <li className="dropdown-content-items">
-                <a href="/">My Projects</a>
-              </li>
-              <hr />
-              <li className="dropdown-content-items">
-                <a href="/">My Resume</a>
-              </li>
-              <hr />
-            </ul>
           </li>
-
           <li className="navItems">
             <a className="navAnchor" href="#contact">
               Contact Me
