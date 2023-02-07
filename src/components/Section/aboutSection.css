@@ -1,0 +1,21 @@
+.contentContainer {
+  display: inline-block;
+  color: #fff;
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 50px;
+  position: absolute;
+}
+
+.aboutContent {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 1040px) {
+  .contentContainer {
+    position: relative;
+    width: 95%;
+    margin-top: 20px;
+  }
+}

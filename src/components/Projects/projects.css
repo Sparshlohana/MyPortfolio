@@ -1,0 +1,58 @@
+.projectContainerElem {
+  /* margin-top: 15px;
+  margin-bottom: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.eachProjectContainer {
+  width: 25%;
+  border: 2px solid #fff;
+  /* height: 200px; */
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.projectHeadingContainer {
+  /* height: 40px; */
+  padding: 10px;
+}
+
+.projectHeading {
+  color: #fff;
+  font-weight: 400;
+  /* margin-top: 10px; */
+  text-decoration: underline;
+}
+
+.projectImage {
+  margin-top: 10px;
+  /* height: 160px; */
+  width: 100%;
+  text-align: center;
+  /* margin-bottom: 5px; */
+}
+
+.bakaaaImg {
+  /* height: 145px; */
+  width: 98%;
+  padding: 5px;
+}
+
+/* .projectDescription {
+  height: 100px;
+} */
+
+.projectDescriptionPara {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+@media (max-width: 590px) {
+  .eachProjectContainer {
+    width: 100%;
+  }
+}

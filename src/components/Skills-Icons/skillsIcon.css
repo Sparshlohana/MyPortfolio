@@ -1,0 +1,20 @@
+.skillIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.skillContainerGrid {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+.skillsLogo {
+  width: 70%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}

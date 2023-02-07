@@ -1,0 +1,30 @@
+.resumeDownloadContainer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.resumePic {
+  width: 80%;
+  border: 2px solid #d6d6d6;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+.downloadBtn {
+  padding: 10px;
+  background-color: #ffffff19;
+  color: #fff;
+  font-size: 1.2rem;
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.downloadContent {
+  color: #f6f6f6;
+  font-size: 1.3rem;
+  margin-top: 5px;
+  text-decoration: dashed;
+}
