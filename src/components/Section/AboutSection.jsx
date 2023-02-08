@@ -5,10 +5,10 @@ const AboutSection = () => {
   return (
     <div className="contentContainer">
       <p className="aboutContent">
-        Myself Sparsh Lohana. I am currently pursuing BCA from Silver Oak
-        University. I am currently in semester 4. I am currently working as an
-        <b> Intern </b>from last 6 months in Lucent Innovation which is an IT
-        company. I am a full-stack developer {"(MERN)"}, And work as a Shopify
+        Hello, I am Sparsh Lohana. Currently I'm in 4th semester pursuing BCA
+        from <b>Silver Oak University</b>. Further more I am working as an
+        intern in an IT company <b>Lucent Innovation</b> from last 6 months. I
+        am a full stack developer {"(MERN)"}, and I also work as a Shopify
         Developer there.
       </p>
     </div>
