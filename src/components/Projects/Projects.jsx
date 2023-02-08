@@ -3,6 +3,7 @@ import bakaaa from "../../assets/images/bakaaa.png";
 import dictionary from "../../assets/images/dictionary.png";
 import checkyourGender from "../../assets/images/checkyourGender.png";
 import weather from "../../assets/images/weather.png";
+import qrImg from "../../assets/images/QrCode.png";
 
 const Projects = () => {
   return (
@@ -100,6 +101,26 @@ const Projects = () => {
             This is a website that tells you real time weather in any country,
             region or state. It is using weather API for getting accurate
             information.
+          </p>
+        </div>
+      </div>
+
+      <div className="eachProjectContainer">
+        <div className="projectHeadingContainer">
+          <h2 className="projectHeading">Qr generator</h2>
+        </div>
+        <hr />
+        <div className="projectImage">
+          <a href="https://qr.sparsh.tk/" target={"_blank"} rel="noreferrer">
+            <img src={qrImg} alt="dictionaryImg" className="bakaaaImg" />
+          </a>
+        </div>
+        <hr />
+        <div className="projectDescription">
+          <p className="projectDescriptionPara">
+            This useful website generates QR code for the text as well as the
+            URL that a user enters. It's practically very fast and user will get
+            response immediately.
           </p>
         </div>
       </div>
