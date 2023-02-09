@@ -1,0 +1,20 @@
+.contactMeIconContainer {
+  display: inline-block;
+  margin-top: 15%;
+  text-align: center;
+}
+
+.iconContainer {
+  display: inline;
+  margin: 10px;
+}
+
+.contactMeIcons {
+  width: 14%;
+}
+
+@media (max-width: 1000px) {
+  .contactMeIcons {
+    width: 100px;
+  }
+}
