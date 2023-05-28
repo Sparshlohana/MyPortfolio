@@ -15,7 +15,7 @@ const Projects = () => {
         <hr />
         <div className="projectImage">
           <a
-            href="https://bakaaa.redskull.me/"
+            href="https://bakaaa.sparsh.tk/"
             target={"_blank"}
             rel="noreferrer"
           >
