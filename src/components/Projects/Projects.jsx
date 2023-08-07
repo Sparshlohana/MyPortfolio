@@ -4,6 +4,7 @@ import dictionary from "../../assets/images/dictionary.png";
 import checkyourGender from "../../assets/images/checkyourGender.png";
 import weather from "../../assets/images/weather.png";
 import qrImg from "../../assets/images/QrCode.png";
+import myBlog from "../../assets/images/myBlog.png";
 
 const Projects = () => {
   return (
@@ -15,7 +16,7 @@ const Projects = () => {
         <hr />
         <div className="projectImage">
           <a
-            href="https://bakaaa.sparsh.tk/"
+            href="https://bakaaa.sparshlohana.live/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -38,7 +39,7 @@ const Projects = () => {
         <hr />
         <div className="projectImage">
           <a
-            href="https://dictionary.sparsh.tk/"
+            href="https://dictionary.sparshlohana.live/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -61,7 +62,7 @@ const Projects = () => {
         <hr />
         <div className="projectImage">
           <a
-            href="https://checkyourgender.sparsh.tk/"
+            href="https://checkyourgender.sparshlohana.live/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -88,7 +89,7 @@ const Projects = () => {
         <hr />
         <div className="projectImage">
           <a
-            href="https://weather.sparsh.tk/"
+            href="https://weather.sparshlohana.live/"
             target={"_blank"}
             rel="noreferrer"
           >
@@ -111,7 +112,7 @@ const Projects = () => {
         </div>
         <hr />
         <div className="projectImage">
-          <a href="https://qr.sparsh.tk/" target={"_blank"} rel="noreferrer">
+          <a href="https://qr.sparshlohana.live/" target={"_blank"} rel="noreferrer">
             <img src={qrImg} alt="dictionaryImg" className="bakaaaImg" />
           </a>
         </div>
@@ -121,6 +122,42 @@ const Projects = () => {
             This useful website generates QR code for the text as well as the
             URL that a user enters. It's practically very fast and user will get
             response immediately.
+          </p>
+        </div>
+      </div>
+
+      <div className="eachProjectContainer">
+        <div className="projectHeadingContainer">
+          <h2 className="projectHeading">My Blog</h2>
+        </div>
+        <hr />
+        <div className="projectImage">
+          <a href="https://myblog.sparshlohana.live/" target={"_blank"} rel="noreferrer">
+            <img src={myBlog} alt="dictionaryImg" className="bakaaaImg" />
+          </a>
+        </div>
+        <hr />
+        <div className="projectDescription">
+          <p className="projectDescriptionPara">
+            This is a website where you can create your own blogs and reads others blogs. It is a fullstack website with OAuth implemented where you can sign in.
+          </p>
+        </div>
+      </div>
+
+      <div className="eachProjectContainer">
+        <div className="projectHeadingContainer">
+          <h2 className="projectHeading">My Blog</h2>
+        </div>
+        <hr />
+        <div className="projectImage">
+          <a href="https://myblog.sparshlohana.live/" target={"_blank"} rel="noreferrer">
+            <img src={myBlog} alt="dictionaryImg" className="bakaaaImg" />
+          </a>
+        </div>
+        <hr />
+        <div className="projectDescription">
+          <p className="projectDescriptionPara">
+            This is a website where you can create your own blogs and reads others blogs. It is a fullstack website with OAuth implemented where you can sign in.
           </p>
         </div>
       </div>
