@@ -143,24 +143,6 @@ const Projects = () => {
           </p>
         </div>
       </div>
-
-      <div className="eachProjectContainer">
-        <div className="projectHeadingContainer">
-          <h2 className="projectHeading">My Blog</h2>
-        </div>
-        <hr />
-        <div className="projectImage">
-          <a href="https://myblog.sparshlohana.live/" target={"_blank"} rel="noreferrer">
-            <img src={myBlog} alt="dictionaryImg" className="bakaaaImg" />
-          </a>
-        </div>
-        <hr />
-        <div className="projectDescription">
-          <p className="projectDescriptionPara">
-            This is a website where you can create your own blogs and reads others blogs. It is a fullstack website with OAuth implemented where you can sign in.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };
