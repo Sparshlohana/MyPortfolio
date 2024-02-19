@@ -68,8 +68,8 @@ const ContactMeIcons = () => {
           rel="noreferrer"
         >
           <img
-            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"
-            alt="WPIcon"
+            src="https://brandlogos.net/wp-content/uploads/2023/07/x__twitter-logo_brandlogos.net_fxbde.png"
+            alt="X"
             className="contactMeIcons"
           />
         </a>

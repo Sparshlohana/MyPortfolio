@@ -2,7 +2,7 @@
   display: inline-block;
   color: #fff;
   width: 80%;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: 50px;
   position: absolute;
 }
@@ -17,5 +17,6 @@
     position: relative;
     width: 95%;
     margin-top: 20px;
+    margin-left: 10px;
   }
 }
